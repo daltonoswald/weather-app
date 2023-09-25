@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" type="text/css" href="../src/styles.css"/>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div class="top">
+        <div class="search">
+            <input  type="text"
+            class="searchbar"
+            id="search"
+            name="search"
+            required>
+            <button class="searchBtn" id="newCity">Search City</button>
+        </div>
+        <!-- <div class="degrees">
+            <button id="unitToggle" value="f">F</button>
+        </div> -->
+    </div>
+    <div id="content">
+        <div id="currentDay">
+            <div id="city"></div>
+            <div id="currentDate"></div>
+            <img id="currentConditionIcon"></img>
+            <div id="currentCondition"></div>
+            <div id="currentTemperature"></div>
+            <div id="currentHumidity"></div>
+        </div>
+        <div id="forecast">
+            <div id="day2">
+                <div id="day2Date"></div>
+                <img id="day2ConditionIcon"></img>
+                <div id="day2Condition"></div>
+                <div id="day2High"></div>
+                <div id="day2Low"></div>
+            </div>
+            <div id="day3">
+                <div id="day3Date"></div>
+                <img id="day3ConditionIcon"></img>
+                <div id="day3Condition"></div>
+                <div id="day3High"></div>
+                <div id="day3Low"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
